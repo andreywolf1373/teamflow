@@ -100,8 +100,8 @@ function Footer() {
         <div className={styles.download_footer}>
           <p>Install App</p>
           <div className={styles.group_button_dark}>
-            <img src="../../../src/img/googlebdark.png" alt="google play" />
-            <img src="../../../src/img/applebdark.png" alt="apple store" />
+            <img src="/googlebdark.png" alt="google play" />
+            <img src="/applebdark.png" alt="apple store" />
           </div>
         </div>
       </div>
@@ -109,10 +109,10 @@ function Footer() {
       <div className={styles.downfooter}>
         <p>&copy; - All rights reserved </p>{" "}
         <div className={styles.icon_group}>
-          <img src="../../../src/img/insta.png" alt="inst" />
-          <img src="../../../src/img/ball.png" alt="ball" />
-          <img src="../../../src/img/x.png" alt="twitter" />
-          <img src="../../../src/img/youtube.png" alt="youtube" />
+          <img src="/insta.png" alt="inst" />
+          <img src="/ball.png" alt="ball" />
+          <img src="/x.png" alt="twitter" />
+          <img src="/youtube.png" alt="youtube" />
         </div>
       </div>
     </footer>

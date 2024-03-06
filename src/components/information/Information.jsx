@@ -13,7 +13,7 @@ function Information() {
           </p>
         </div>
       ),
-      content: <img src="../../../src/img/contentTab.png" alt="tab" />,
+      content: <img src="/contentTab.png" alt="tab" />,
     },
     {
       title: (
@@ -22,7 +22,7 @@ function Information() {
           <p>Anonymous messaging that connects managers and employees.</p>
         </div>
       ),
-      content: <img src="../../../src/img/contentTab.png" alt="tab" />,
+      content: <img src="/contentTab.png" alt="tab" />,
     },
     {
       title: (
@@ -31,7 +31,7 @@ function Information() {
           <p>Plan meetings together and give a stake employees and teams.</p>
         </div>
       ),
-      content: <img src="../../../src/img/contentTab.png" alt="tab" />,
+      content: <img src="/contentTab.png" alt="tab" />,
     },
     {
       title: (
@@ -42,7 +42,7 @@ function Information() {
           </p>
         </div>
       ),
-      content: <img src="../../../src/img/contentTab.png" alt="tab" />,
+      content: <img src="/contentTab.png" alt="tab" />,
     },
   ];
 

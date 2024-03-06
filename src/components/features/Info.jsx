@@ -11,7 +11,7 @@ function Info() {
         </p>
         <button> Get started free </button>
       </div>
-      <img src="../../../src/img/Graphics.png" alt="img" />
+      <img src="/Graphics.png" alt="img" />
     </div>
   );
 }

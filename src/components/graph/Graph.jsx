@@ -101,7 +101,7 @@ import styles from "./Graph.module.css";
 function Graph() {
   return (
     <div className={styles.container}>
-      <img src="../../../src/img/graph.png" alt="graphs" />
+      <img src="/graph.png" alt="graphs" />
     </div>
   );
 }

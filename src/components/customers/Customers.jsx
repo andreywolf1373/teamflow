@@ -7,7 +7,7 @@ function Customers() {
       title: (
         <div className={styles.customerContainer}>
           <div>
-            <img src="../../../src/img/jorge.png" alt="jorge" />
+            <img src="/jorge.png" alt="jorge" />
           </div>
           <div>
             <h4> Jorge Robertson </h4>
@@ -30,7 +30,7 @@ function Customers() {
       title: (
         <div className={styles.customerContainer}>
           <div>
-            <img src="../../../src/img/franc.png" alt="franc" />
+            <img src="/franc.png" alt="franc" />
           </div>
           <div>
             <h4> Francisco Bell </h4>
@@ -53,7 +53,7 @@ function Customers() {
       title: (
         <div className={styles.customerContainer}>
           <div>
-            <img src="../../../src/img/beth.png" alt="beth" />
+            <img src="/beth.png" alt="beth" />
           </div>
           <div>
             <h4>Beth Fox </h4>

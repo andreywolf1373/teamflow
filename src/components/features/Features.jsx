@@ -15,25 +15,16 @@ function Features() {
     <>
       <h3 className={styles.title}>Make your work easier</h3>
       <div className={styles.container}>
-        <FeaturesBlock
-          srcImg={"../../../src/img/icon1.png"}
-          title={"Team Surveys & Reports"}
-        >
+        <FeaturesBlock srcImg={"/icon1.png"} title={"Team Surveys & Reports"}>
           Short, anonymous surveys track your <br />
           team’s needs weekly so you can focus.
         </FeaturesBlock>
-        <FeaturesBlock
-          srcImg={"../../../src/img/icon2.png"}
-          title={"Collaborative 1:1 "}
-        >
+        <FeaturesBlock srcImg={"/icon2.png"} title={"Collaborative 1:1 "}>
           Build relationships by planning <br />
           1-on-1s and start meetings.
         </FeaturesBlock>
 
-        <FeaturesBlock
-          srcImg={"../../../src/img/icon3.png"}
-          title={"Learning Center"}
-        >
+        <FeaturesBlock srcImg={"/icon3.png"} title={"Learning Center"}>
           Quickly get solutions tailored to your <br /> personal challenges from
           the manager.
         </FeaturesBlock>
@@ -47,23 +38,14 @@ function Features() {
           </a>
         ) : (
           <>
-            <FeaturesBlock
-              srcImg={"../../../src/img/icon4.png"}
-              title={"Anonymous Messaging"}
-            >
+            <FeaturesBlock srcImg={"/icon4.png"} title={"Anonymous Messaging"}>
               Develop trust in a safe channel for <br /> important
               conversations.{" "}
             </FeaturesBlock>
-            <FeaturesBlock
-              srcImg={"../../../src/img/icon5.png"}
-              title={"Conversation Engine"}
-            >
+            <FeaturesBlock srcImg={"/icon5.png"} title={"Conversation Engine"}>
               Communicate confidently with <br /> recommended talking points.{" "}
             </FeaturesBlock>
-            <FeaturesBlock
-              srcImg={"../../../src/img/icon6.png"}
-              title={"Exclusives Manager"}
-            >
+            <FeaturesBlock srcImg={"/icon6.png"} title={"Exclusives Manager"}>
               Access manager tips, activities and <br /> best practices from our
               team of experts.
             </FeaturesBlock>
