@@ -7,7 +7,6 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    // Добавляем или удаляем класс для блокировки скролла
     document.body.classList.toggle("menu-open", !isOpen);
   };
 
@@ -55,7 +54,6 @@ function NavBar() {
             <a href="#">Placeholder</a>
           </div>
         </div>
-
         <div className={styles.button_container}>
           <a href="#"> Log in </a>
           <a href="#" className={styles.button_second}>
