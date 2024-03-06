@@ -1,0 +1,58 @@
+.vertical_tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.tab_navigation {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  gap: 50px;
+  cursor: pointer;
+}
+
+.tab {
+  border-left: 8px solid #fff;
+}
+
+.tab_content {
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.tab_content img {
+  width: 100%;
+}
+
+.tab_active {
+  border-left: 8px solid #794cff;
+}
+
+@media (max-width: 950px) {
+  .tab_navigation {
+    gap: 10px;
+  }
+}
+@media (max-width: 1150px) {
+  .vertical_tabs {
+    flex-direction: column;
+  }
+
+  .tab_active,
+  .tab {
+    text-align: center;
+    border: 0;
+  }
+  .tab_active {
+    border-bottom: 8px solid #794cff;
+  }
+
+  .tab h3,
+  .tab_active h3 {
+    text-align: center;
+  }
+}

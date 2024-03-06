@@ -1,0 +1,42 @@
+.customerContainer {
+  display: flex;
+
+  font-family: "Inter", sans-serif;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.customerContainer h4 {
+  font-size: 16;
+  font-weight: 600;
+}
+
+.customerContainer p {
+  font-size: 16;
+}
+
+.contentContainer {
+  margin-bottom: 40px;
+}
+
+.contentContainer p {
+  color: #4e5a65;
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .contentContainer h3 {
+    font-size: 18px;
+  }
+  .contentContainer {
+    padding: 46px;
+    margin-bottom: 0;
+  }
+  .customerContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+    margin-bottom: 10px;
+  }
+}

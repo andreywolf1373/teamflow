@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 100px;
+}
+
+.container h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+.copmanies {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 941px;
+}
+
+.copmanies img {
+  height: auto;
+}
+
+@media (max-width: 950px) {
+  .copmanies {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container h3 {
+    font-size: 11px;
+  }
+  .container span {
+    font-weight: bold;
+  }
+}

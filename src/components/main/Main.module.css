@@ -1,0 +1,132 @@
+.link_group p {
+  background-color: #81c43b;
+  border: #81c43b solid 2px;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #fff;
+}
+
+.link_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 32px;
+}
+
+.link_group a:link {
+  color: #35414b;
+}
+
+.text_field {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.text_field h1 {
+  font-size: 64px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.text_field h2 {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #4e5a65;
+  line-height: 20px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.input_group input,
+a {
+  display: inline-block;
+}
+.input_group {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.input_group input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #e1e5ea;
+  font-family: "Inter", sans-serif;
+}
+
+.input_group input::placeholder {
+  color: #97a5b5;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+}
+
+.input_group button {
+  background-color: #794cff;
+  font-size: 16px;
+  font-family: "Inter" sans-serif;
+  padding: 15px 45px;
+  color: #fff;
+  border: 2px solid #794cff;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.input_group button:hover {
+  background-color: #fff;
+  color: #794cff;
+  border: 2px solid #794cff;
+  transition: border-color 0.3s;
+}
+
+.main {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .text_field h1 {
+    font-size: 40px;
+  }
+  .text_field h2 {
+    font-size: 14px;
+  }
+
+  .input_group {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+  }
+  .input_group input {
+    text-align: center;
+    padding: 10px;
+  }
+  .link_group p {
+    display: none;
+  }
+  .input_group button {
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 33px;
+  }
+  .input_group {
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 700px) {
+  .text_field {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

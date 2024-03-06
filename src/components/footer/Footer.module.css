@@ -1,0 +1,129 @@
+.footer {
+  background-color: #1d2830;
+  color: #fff !important;
+  font-family: "Inter", sans-serif;
+}
+
+.grid_container ul li {
+  list-style-type: none;
+  font-size: 16px;
+  margin-top: 24px;
+  font-weight: 200;
+}
+.grid_container ul {
+  margin-top: 50px;
+}
+
+.grid_container {
+  max-width: 1174px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 100px;
+}
+
+.grid_container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.grid_container p {
+  /* margin-top: 74px; */
+  font-size: 16px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  /* margin-bottom: 20px; */
+}
+
+.group_button_dark img {
+  /* margin-top: 5px; */
+  margin-bottom: 20px;
+}
+
+.downfooter {
+  max-width: 1174px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.downfooter p {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.icon_group {
+  display: flex;
+  gap: 25px;
+}
+
+.footer_title p {
+  color: #fff;
+  font-weight: 500;
+}
+.arrow {
+  display: none;
+}
+
+.download_footer {
+  margin-top: 50px;
+}
+
+.download_footer p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .grid_container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .grid_container {
+    grid-template-columns: 1fr;
+    margin-bottom: 0px;
+    padding: 46px;
+    padding-top: 0;
+  }
+  .download_footer p {
+    margin-bottom: 10px;
+  }
+
+  .footer_title {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .icon_group {
+    display: none;
+  }
+  .downfooter p {
+    padding-left: 46px;
+  }
+  .group_button_dark {
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .grid_container .footer_dropdown {
+    display: none;
+    margin-top: 0;
+  }
+  .arrow {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+  .grid_container ul {
+    margin-top: 32px;
+  }
+}

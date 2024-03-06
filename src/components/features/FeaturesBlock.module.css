@@ -1,0 +1,25 @@
+.container {
+  font-family: "Inter", sans-serif;
+}
+
+.container h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.container p {
+  font-size: 16px;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
